@@ -4,19 +4,19 @@ Hello! Welcome to the Exploratory Data Analysis Section! This section is focused
 3. Exploratory Data Analysis - NO2, CO2, & PM2.5.ipynb
 4. Exploratory Data Analysis - Occupants' Activity.ipynb
 
-For the visualization script, it focuses on developing visualizations based on zip code and location; these pieces of information are available in the dataset. 
+For the visualization script, it focuses on developing visualizations based on zip code and location; these pieces of information are available in the "Home_Characteristic" dataset. 
 There are 10 visualization utilized in the notebook:
 - Relative Blue pinpoints for each zipcode based on price per square feet. 
 - PM2.5 vs Price per Sq/ft & CO2 concentration vs Price per Sq/ft & NO2 concentration vs Price per Sq/ft & T_ETC vs Price per Sq/ft
 - PM2.5 vs Total_Price & CO2 vs Total_Price & NO2 vs Total_Price & T_ETC vs Total_Price
-- An interactive with all 70 house points with  markers to have useful information in it.
+- An interactive with all 70 house points with  markers to have useful information in it; this information include real estate pricing, price per square feet, and concentration of CO2, NO2, and PM2.5.
 
   <img width="1276" alt="Screen Shot 2023-12-06 at 8 39 45 PM" src="https://github.com/yazan1zamel/Indoor-Air-Quality-Project/assets/117310888/9a305485-ac04-4b7d-a94f-aee41b3f0e4b">
 
 For the Correlations script, this section aims to characterize each home based on the IAQ parameters, namely PM2.5, CO2, NO2, Temperature, and ventilation rates in terms of infiltration rates and air change rate. This characterization is completed through the following:
 - Use of python's computational features to compute average or mean of each of the 6 parameters for each of the 70 homes over a period of two years. The data is consulted from IAQ_monitoring and Airflow datasets.
    
-- Data from A is summarized in a comprehensive table for future data analysis, as seen below.
+- Data from the above step is summarized in a comprehensive table for future data analysis, as seen below.
    
    <img width="579" alt="Screen Shot 2023-12-06 at 8 26 14 AM" src="https://github.com/yazan1zamel/Indoor-Air-Quality-Project/assets/117310888/aba7e453-597c-4146-bfd2-47d76f9c119a">
    
@@ -49,7 +49,10 @@ For the fourth script in the Data Exploratory Analysis folder, the focus of this
 ![compiled data 2](https://github.com/yazan1zamel/Indoor-Air-Quality-Project/assets/117310888/06021eb8-2d91-45ee-9e26-68d0469499d0)
 
 - In addition, computational analysis was performed to identify mean and median for various occupants activity to assist in identifying impacts of occupant activity on indoor air quality. An example output can be seen below:
-     - Example of mean: 
-      <img width="531" alt="Screen Shot 2023-12-06 at 9 31 06 PM" src="https://github.com/yazan1zamel/Indoor-Air-Quality-Project/assets/117310888/f1c899dd-0c2d-4661-837e-ee41d9f13e47">
+     - Example of mean:
+       
+  <img width="531" alt="Screen Shot 2023-12-06 at 9 31 06 PM" src="https://github.com/yazan1zamel/Indoor-Air-Quality-Project/assets/117310888/f1c899dd-0c2d-4661-837e-ee41d9f13e47">
+  
      - Example of median:
+       
      <img width="533" alt="Screen Shot 2023-12-06 at 9 30 43 PM" src="https://github.com/yazan1zamel/Indoor-Air-Quality-Project/assets/117310888/6292c2cd-ed5e-4338-a72b-42eb7bd53986">
