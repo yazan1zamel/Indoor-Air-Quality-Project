@@ -33,6 +33,7 @@ How does the project work?
 There are three key folders uploaded in our repository: 
 1. Exploratory Data Analysis: Investigates the correlation between different IAQ, ventilation, and building attributes; highlights which parameters impact IAQ dominantly 
 2. Machine Learning Models: A classification and a linear regression model 
-3. Web Scrapping Data: Housing Provides a new set of data to estimate the pricing of the 70 homes in the dataset; the pricing is a parameter that is not presented in our data. The real estate pricing is used in the machine learning model. 
+3. Web Scrapping Data: Housing Provides a new set of data to estimate the pricing of the 70 homes in the dataset; the pricing is a parameter that is not presented in our data. The real estate pricing is used in the machine learning model.
+4. Data: The dataset encompasses important information gathered from 70 houses, covering their mechanical equipment, participant survey results, air leakage, and airflow measurements. Additionally, it includes concentrations of pollutants measured by time-integrated passive samplers inside and outside the homes, details about cooktop and oven usage, the open state of external doors, and time-series data for air pollutants and environmental indicators measured both within and outside the houses.
 
-There is a readme page presented in each of the three folders to assist you in further understanding the codes, visualizations, and work presented. 
+There is a readme page presented in each of the four folders to assist you in further understanding the codes, visualizations, and work presented. 
